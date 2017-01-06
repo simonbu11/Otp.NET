@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6a01bff6-fe83-4cf1-b210-37d048fa0514</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Simonbu11.Otp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Hotp\HmacSha1HotpGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Hotp\HotpGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Hotp\HotpGeneratorSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OtpGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OtpGeneratorSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OtpSharedSecret.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Totp\HmacSha1TotpGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Totp\HmacSha256TotpGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Totp\HmacSha512TotpGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Totp\TotpGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Totp\TotpGeneratorSettings.cs" />
+  </ItemGroup>
+</Project>
