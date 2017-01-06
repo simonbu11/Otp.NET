@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>simonbu11.otp</id>
+        <version>1.0.0</version>
+        <title>simonbu11.otp</title>
+        <authors>Simon Bull</authors>
+        <owners>Simon Bull</owners>
+        <licenseUrl>https://github.com/simonbu11/Otp.NET/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/simonbu11/Otp.NET</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>One-Time password library, providing .NET Implementations of HOTP (RFC4226) and TOTP (RFC6238)</description>
+        <tags>otp totp hotp</tags>
+    </metadata>
+    <files>
+        <file src="Simonbu11.Otp.Net452\bin\Release\Simonbu11.Otp.dll" target="lib\net452\Simonbu11.Otp.dll" />
+    </files>
+</package>
