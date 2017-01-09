@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Simonbu11.Otp.Net452")]
+[assembly: AssemblyTitle("Simonbu11.Otp.Net45")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Simonbu11.Otp.Net452")]
+[assembly: AssemblyProduct("Simonbu11.Otp.Net45")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("007532eb-b352-4de9-aaca-7e4ce707f9fb")]
+[assembly: Guid("f5177c3a-025c-4f49-b056-c374acb010d0")]
 
 // Version information for an assembly consists of the following four values:
 //

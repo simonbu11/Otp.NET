@@ -11,10 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2CE808AC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simonbu11.Otp.Net452.UnitTests", "Simonbu11.Otp.Net452.UnitTests\Simonbu11.Otp.Net452.UnitTests.csproj", "{C43B043D-8CB0-4D5D-B1BA-168AA89E0198}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simonbu11.Otp.Net45", "Simonbu11.Otp.Net45\Simonbu11.Otp.Net45.csproj", "{F5177C3A-025C-4F49-B056-C374ACB010D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simonbu11.Otp.Net45.UnitTests", "Simonbu11.Otp.Net45.UnitTests\Simonbu11.Otp.Net45.UnitTests.csproj", "{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Simonbu11.Otp\Simonbu11.Otp.projitems*{007532eb-b352-4de9-aaca-7e4ce707f9fb}*SharedItemsImports = 4
 		Simonbu11.Otp\Simonbu11.Otp.projitems*{6a01bff6-fe83-4cf1-b210-37d048fa0514}*SharedItemsImports = 13
+		Simonbu11.Otp\Simonbu11.Otp.projitems*{f5177c3a-025c-4f49-b056-c374acb010d0}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +34,20 @@ Global
 		{C43B043D-8CB0-4D5D-B1BA-168AA89E0198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C43B043D-8CB0-4D5D-B1BA-168AA89E0198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C43B043D-8CB0-4D5D-B1BA-168AA89E0198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5177C3A-025C-4F49-B056-C374ACB010D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5177C3A-025C-4F49-B056-C374ACB010D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5177C3A-025C-4F49-B056-C374ACB010D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5177C3A-025C-4F49-B056-C374ACB010D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C43B043D-8CB0-4D5D-B1BA-168AA89E0198} = {2CE808AC-49D6-4E45-8563-494C8B5F8B1A}
+		{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8} = {2CE808AC-49D6-4E45-8563-494C8B5F8B1A}
 	EndGlobalSection
 EndGlobal

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>simonbu11.otp</id>
-        <version>1.0.0</version>
+        <version>1.2.0</version>
         <title>simonbu11.otp</title>
         <authors>Simon Bull</authors>
         <owners>Simon Bull</owners>
@@ -13,6 +13,7 @@
         <tags>otp totp hotp</tags>
     </metadata>
     <files>
+        <file src="Simonbu11.Otp.Net45\bin\Release\Simonbu11.Otp.dll" target="lib\net45\Simonbu11.Otp.dll" />
         <file src="Simonbu11.Otp.Net452\bin\Release\Simonbu11.Otp.dll" target="lib\net452\Simonbu11.Otp.dll" />
     </files>
 </package>
