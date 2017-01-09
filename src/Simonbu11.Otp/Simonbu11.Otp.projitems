@@ -9,6 +9,7 @@
     <Import_RootNamespace>Simonbu11.Otp</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Base32.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Hotp\HmacSha1HotpGenerator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Hotp\HotpGenerator.cs" />

@@ -53,5 +53,11 @@ namespace Simonbu11.Otp
         {
             return new OtpSharedSecret(value.HexStringToBytes());
         }
+
+        public static OtpSharedSecret FromBase32String(string value)
+        {
+            return new OtpSharedSecret(Base32.ToBytes(value));
+        }
+
     }
 }
