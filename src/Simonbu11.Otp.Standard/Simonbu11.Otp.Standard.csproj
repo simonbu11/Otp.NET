@@ -4,4 +4,6 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <Import Project="..\Simonbu11.Otp\Simonbu11.Otp.projitems" Label="Shared" />
+
 </Project>
