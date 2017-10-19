@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Simonbu11.Otp", "Simonbu11.Otp\Simonbu11.Otp.shproj", "{6A01BFF6-FE83-4CF1-B210-37D048FA0514}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simonbu11.Otp.Net45", "Simonbu11.Otp.Net45\Simonbu11.Otp.Net45.csproj", "{F5177C3A-025C-4F49-B056-C374ACB010D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simonbu11.Otp.Net45.UnitTests", "Simonbu11.Otp.Net45.UnitTests\Simonbu11.Otp.Net45.UnitTests.csproj", "{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simonbu11.Otp.Standard", "Simonbu11.Otp.Standard\Simonbu11.Otp.Standard.csproj", "{3504A6BD-52FE-43E0-892D-DF97E262D59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simonbu11.Otp.Core.UnitTests", "Simonbu11.Otp.Core.UnitTests\Simonbu11.Otp.Core.UnitTests.csproj", "{CE46D8AF-F381-4DB3-9391-3202C37C5C9F}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -42,6 +46,14 @@ Global
 		{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3504A6BD-52FE-43E0-892D-DF97E262D59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3504A6BD-52FE-43E0-892D-DF97E262D59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3504A6BD-52FE-43E0-892D-DF97E262D59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3504A6BD-52FE-43E0-892D-DF97E262D59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE46D8AF-F381-4DB3-9391-3202C37C5C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE46D8AF-F381-4DB3-9391-3202C37C5C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE46D8AF-F381-4DB3-9391-3202C37C5C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE46D8AF-F381-4DB3-9391-3202C37C5C9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +61,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C43B043D-8CB0-4D5D-B1BA-168AA89E0198} = {2CE808AC-49D6-4E45-8563-494C8B5F8B1A}
 		{ECDCA82A-B14A-4EF2-A452-A43F5580A3F8} = {2CE808AC-49D6-4E45-8563-494C8B5F8B1A}
+		{CE46D8AF-F381-4DB3-9391-3202C37C5C9F} = {2CE808AC-49D6-4E45-8563-494C8B5F8B1A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4581C39D-C4BC-4D1D-92B5-0060C111E6A6}
 	EndGlobalSection
 EndGlobal
