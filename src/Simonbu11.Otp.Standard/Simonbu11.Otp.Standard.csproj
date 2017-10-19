@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Simonbu11.Otp</AssemblyName>
+    <RootNamespace>Simonbu11.Otp</RootNamespace>
   </PropertyGroup>
 
   <Import Project="..\Simonbu11.Otp\Simonbu11.Otp.projitems" Label="Shared" />

@@ -15,5 +15,6 @@
     <files>
         <file src="Simonbu11.Otp.Net45\bin\Release\Simonbu11.Otp.dll" target="lib\net45\Simonbu11.Otp.dll" />
         <file src="Simonbu11.Otp.Net452\bin\Release\Simonbu11.Otp.dll" target="lib\net452\Simonbu11.Otp.dll" />
+        <file src="Simonbu11.Otp.Standard\bin\Release\netstandard2.0\Simonbu11.Otp.dll" target="lib\netstandard\Simonbu11.Otp.dll" />
     </files>
 </package>
